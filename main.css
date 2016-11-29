@@ -4,7 +4,7 @@ header {
   text-align: center;
 }
 header img {
-  width: 25%; /*scale image size*/
+  width: 25%; /*scale image size; scales with viewport width*/
   height: 100%; /*not really needed, just a precaution*/
 }
 /*Top border*/
