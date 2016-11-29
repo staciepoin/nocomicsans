@@ -19,4 +19,7 @@ header img {
   header img {
     width: 50%; /*mobile size*/
   }
+  .topbar {
+    width: 10px;
+  }
 }
