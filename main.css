@@ -1,3 +1,9 @@
+/*Header*/
+header {
+  width: 100%;
+  text-align: center;
+}
+
 /*Top border*/
 .topbar {
   background-color: #66cccc; /*web safe color; in case first color doesn't display*/
