@@ -3,7 +3,10 @@ header {
   width: 100%;
   text-align: center;
 }
-
+header img {
+  width: 25%; /*scale image size*/
+  height: 100%; /*not really needed, just a precaution*/
+}
 /*Top border*/
 .topbar {
   background-color: #66cccc; /*web safe color; in case first color doesn't display*/
