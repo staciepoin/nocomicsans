@@ -1,5 +1,5 @@
 /*Header*/
-@media (min-width: 1024px) { 
+@media screen and (min-width: 1024px) {
   header {
     width: 100%;
     text-align: center;
@@ -8,7 +8,7 @@
     width: 25%; /*scale image size; scales with viewport width*/
     height: 100%; /*not really needed, just a precaution*/
   }
-/*Top border*/
+  /*Top border*/
   .topbar {
     background-color: #66cccc; /*web safe color; in case first color doesn't display*/
     background-color: #6ADBD9; /*same color as logo*/
@@ -16,7 +16,8 @@
     height: 5px; /*height*/
   }
 }
-@media (min-width:320px) {
+
+@media screen and (min-width: 320px) {
   header img {
     width: 50%; /*mobile size*/
   }
