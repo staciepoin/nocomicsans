@@ -14,3 +14,9 @@ header img {
   width: 100%; /*length*/
   height: 5px; /*height*/
 }
+
+@media (min-width:360px) {
+  header img {
+    width: 50%; /*mobile size*/
+  }
+}
