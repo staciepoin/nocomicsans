@@ -1,13 +1,7 @@
 /*Top border*/
 .topbar {
-  background-color: #6ADBD9; /*same color as logo*/
   background-color: #66cccc; /*web safe color; in case first color doesn't display*/
+  background-color: #6ADBD9; /*same color as logo*/
   width: 100%; /*length*/
-  height: 5px; /*border thickness*/
-  position: absolute;
-}
-
-body {
-  width: 100%;
-  height: 100%;
+  height: 15px; /*height*/
 }
