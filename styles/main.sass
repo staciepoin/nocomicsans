@@ -1,0 +1,59 @@
+$red: #e24e42
+$yellow: #e9b000
+$green: #1fb58f
+$purple: #93648d
+$nav-font: 20px 'Open Sans Condensed', sans-serif
+$head-height: 50px
+$banner-height: 300px
+$banner-font: 75px 'Pacifico', cursive
+
+header
+  width: 100%
+  position: fixed /*sticks to the top*/
+  height: $head-height
+  top: 0
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2)
+
+header ul
+  list-style-type: none /*no bullets*/
+  width: 100%
+  font: $nav-font
+
+header li
+  float: left
+  width: 25% /*equal widths*/
+  line-height: $head-height
+
+header li a
+  text-decoration: none
+  text-transform: uppercase
+  display: block
+  text-align: center
+  transition: .3s /*transition time*/
+  
+header li a:hover
+  text-decoration: underline
+
+.link1
+  color: $red
+.link2
+  color: $yellow
+.link3
+  color: $green
+.link4
+  color: $purple
+  
+/*BANNER*/
+#banner
+  width: 100%
+  background: #fff
+  height: $banner-height
+  width: 100%
+  text-align: center
+  box-sizing: border-box
+
+#banner img
+  height: $banner-height
+body
+  padding-top: $head-height
+  
