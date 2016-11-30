@@ -2,30 +2,64 @@ header {
   width: 100%;
   position: fixed;
   height: 50px;
+  top: 0;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
+
 header ul {
   list-style-type: none;
   width: 100%;
-  line-height: 50px;
-  font-size: 20px;
-
+  font: 20px "Open Sans Condensed", sans-serif;
 }
+
 header li {
   float: left;
   width: 25%;
+  line-height: 50px;
 }
+
 header li a {
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Open Sans Condensed', sans-serif;
   display: block;
   text-align: center;
-  color: black;
+  transition: 0.3s;
 }
 
+header li a:hover {
+  text-decoration: underline;
+}
 
-/*COLORS*/
-.link1 {color: #F16745}
-.link2 {color: #7BC8A4}
-.link3 {color: #4CC3D9}
-.link4 {color: #93648D}
+.link1 {
+  color: #e24e42;
+}
+
+.link2 {
+  color: #e9b000;
+}
+
+.link3 {
+  color: #1fb58f;
+}
+
+.link4 {
+  color: #93648d;
+}
+
+/*BANNER */
+#banner {
+  width: 100%;
+  background: #fff;
+  height: 300px;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#banner img {
+  height: 300px;
+}
+
+body {
+  padding-top: 50px;
+}
