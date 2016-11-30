@@ -1,27 +1,16 @@
 /*Header*/
-@media screen and (min-width: 1024px) {
-  header {
-    width: 100%;
-    text-align: center;
-  }
-  header img {
-    width: 25%; /*scale image size; scales with viewport width*/
-    height: 100%; /*not really needed, just a precaution*/
-  }
-  /*Top border*/
-  .topbar {
-    background-color: #66cccc; /*web safe color; in case first color doesn't display*/
-    background-color: #6ADBD9; /*same color as logo*/
-    width: 100%; /*length*/
-    height: 5px; /*height*/
-  }
+header {
+  width: 100%;
+  text-align: center;
 }
-
-@media screen and (min-width: 320px) {
-  header img {
-    width: 50%; /*mobile size*/
-  }
-  .topbar {
-    height: 10px;
-  }
+header img {
+  width: 25%; /*scale image size; scales with viewport width*/
+  height: 100%; /*not really needed, just a precaution*/
+}
+/*Top border*/
+.topbar {
+  background-color: #66cccc; /*web safe color; in case first color doesn't display*/
+  background-color: #6ADBD9; /*same color as logo*/
+  width: 100%; /*length*/
+  height: 5px; /*height*/
 }
