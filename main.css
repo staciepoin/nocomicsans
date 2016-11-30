@@ -1,16 +1,31 @@
-/*Header*/
 header {
   width: 100%;
+  position: fixed;
+  height: 50px;
+}
+header ul {
+  list-style-type: none;
+  width: 100%;
+  line-height: 50px;
+  font-size: 20px;
+
+}
+header li {
+  float: left;
+  width: 25%;
+}
+header li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed', sans-serif;
+  display: block;
   text-align: center;
+  color: black;
 }
-header img {
-  width: 25%; /*scale image size; scales with viewport width*/
-  height: 100%; /*not really needed, just a precaution*/
-}
-/*Top border*/
-.topbar {
-  background-color: #66cccc; /*web safe color; in case first color doesn't display*/
-  background-color: #6ADBD9; /*same color as logo*/
-  width: 100%; /*length*/
-  height: 2.5px; /*height*/
-}
+
+
+/*COLORS*/
+.link1 {color: #F16745}
+.link2 {color: #7BC8A4}
+.link3 {color: #4CC3D9}
+.link4 {color: #93648D}
