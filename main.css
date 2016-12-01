@@ -3,7 +3,7 @@ header {
   position: fixed;
   height: 50px;
   top: 0;
-  z-index: 999
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
 
 header ul {
@@ -46,7 +46,7 @@ header li a:hover {
   color: #93648d;
 }
 
-/*BANNER */
+/*BANNER*/
 #banner {
   width: 100%;
   background: #fff;
@@ -54,7 +54,6 @@ header li a:hover {
   width: 100%;
   text-align: center;
   box-sizing: border-box;
-  position: absolute
 }
 
 #banner img {
