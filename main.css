@@ -45,7 +45,7 @@ body {
 }
 
 #nav li a:hover, #nav li a.active {
-	color: #66cccc;
+	color: #6ed7d7;
 }
 
 /*CMIFF*/
@@ -103,7 +103,7 @@ header {
 
 #search input[type="submit"] {
 	border: 0;
-	background-color: #66cccc;
+	background-color: #6ed7d7;
 	width: 10%;
 	background-image: url(/cmiff/images/search-icon.png);
 	background-size: 15px;
@@ -168,7 +168,7 @@ header {
 }
 
 #contact input[type="submit"] {
-	background-color: #66cccc;
+	background-color: #6ed7d7;
 	font-family: 'Oswald', sans-serif;
 	width: 50%!important;
 	margin: 1.5% 0 0 50%!important;
@@ -177,5 +177,5 @@ header {
 
 #contact input[type="submit"]:hover {
 	cursor: pointer;
-	background-color: #99cccc;
+	background-color: #aad7d7;
 }
