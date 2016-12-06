@@ -5,7 +5,7 @@
   <meta name="description" content="A website for Do it Yourself projects and more"> <!--description that shows in web searches-->
 
   <link rel="icon" href="/nocomicsans/DIY-Logo-transparent.png" type="image/x-icon"> <!--shortcut icon-->
-  <title>No Comic Sans</title> <!--page title-->
+  <title>About</title> <!--page title-->
 <!--STYLESHEETS-->
   <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="reset.css">
@@ -13,15 +13,43 @@
 </head>
   
 <body>
-<ul>
-  <li><a href="#home" class="link1">Home</a></li>
-  <li><a href="#projects" class="link2">Projects</a></li>
-  <li><a href="#contact" class="link3">Contact</a></li>
-  <li><a href="#about" class="link4">About</a></li>
+<!--HEADER-->
+<header>
+<div id="head"><a href="/">
+	<span class="cmiff">Dorm Room</span>
+	<span class="dates">DIY</span></a>
+</div>
+</header>
+
+<ul id="nav">
+	<li><a class="active" href="/">Home</a></li>
+	<li><a href="about.html">About</a></li>
+	<li><a href="projects.html">Projects</a></li>
+	<li><a href="contact.html">Contact</a></li>
+	<form autocomplete="off" id="search">
+  		<input type="text" name="search" placeholder="Search">
+		<input type="submit" value=" ">
+	</form>
 </ul>
-<div class="container">
-  <div class="banner">
-    <img src="/nocomicsans/f0bfcebcc8ce41aeb934045949723acb.png" alt="dorm room diy">
+
+<div id="container">
+<div id="sidebar">
+	<h3>CONTACT US</h3>
+	<form id="contact" action="mailto:someone@example.com" method="post" enctype="text/plain">
+		<input type="text" name="name" placeholder="Name*" required>
+		<input type="email" name="email" placeholder="Email*" required>
+		<input type="text" name="subject" placeholder="Subject*" required>
+		<textarea rows="8" placeholder="Message*" required></textarea>
+		<input type="submit" value="SEND">
+	</form>
+</div>
+  <div class="section">
+  <i class="fa fa-laptop" aria-hidden="true"></i>
+  <p>The Website Design Team of the Gratiot-Isabella Technical Education Center's BPA (Business Professionals of America) chapter. The team consists of Stacie Poindexter, Julian Moses, Sloan Felton, and Haevyn Seidel.</p>
+  </div>
+  <div class="section">
+  <i class="fa fa-puzzle-piece" aria-hidden="true"></i>
+  <p>This website's theme is targeted towards college students to have do it yourself ideas for dorm room decorations and projects. We decided this target market as being the best candidates for their innovative skills, and low budgets to work with.</p>
   </div>
 </div>
 </body>
