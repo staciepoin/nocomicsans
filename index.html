@@ -1,28 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="description" content="A website for Do it Yourself projects and more"> <!--description that shows in web searches-->
-  <meta HTTP-EQUIV="REFRESH" content="0; url=http://nocomicsans.weebly.com/">
-  <link rel="icon" href="/nocomicsans/DIY-Logo-transparent.png" type="image/x-icon"> <!--shortcut icon-->
-  <title>No Comic Sans</title> <!--page title-->
-<!--STYLESHEETS-->
-  <link rel="stylesheet" href="main.css">
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700"> <!--GOOGLE FONTS-->
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel='shortcut icon' href='/nocomicsans/media/favicon.png' type='image/x-icon'>
+	<link href="https://fonts.googleapis.com/css?family=Monoton|Oswald|Quicksand" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/37b8f1c164.css">
+	<script src="https://use.fontawesome.com/31d36e61e0.js"></script>
+	<title>Dorm Room DIY</title>
 </head>
-  
+
 <body>
-<ul>
-  <li><a href="#home" class="link1">Home</a></li>
-  <li><a href="#projects" class="link2">Projects</a></li>
-  <li><a href="#contact" class="link3">Contact</a></li>
-  <li><a href="#about" class="link4">About</a></li>
+
+<!--HEADER-->
+<header>
+<div id="head"><a href="/">
+	<span class="cmiff">Dorm Room</span>
+	<span class="dates">DIY</span></a>
+</div>
+</header>
+
+<ul id="nav">
+	<li><a class="active" href="/">Home</a></li>
+	<li><a href="about.html">About</a></li>
+	<li><a href="projects.html">Projects</a></li>
+	<li><a href="contact.html">Contact</a></li>
+	<form autocomplete="off" id="search">
+  		<input type="text" name="search" placeholder="Search">
+		<input type="submit" value=" ">
+	</form>
 </ul>
-<div class="container">
-  <div class="banner">
-    <img src="/nocomicsans/f0bfcebcc8ce41aeb934045949723acb.png" alt="dorm room diy">
-  </div>
+
+<div id="container">
+<div id="sidebar">
+	<h3>CONTACT US</h3>
+	<form id="contact" action="mailto:someone@example.com" method="post" enctype="text/plain">
+		<input type="text" name="name" placeholder="Name*" required>
+		<input type="email" name="email" placeholder="Email*" required>
+		<input type="text" name="subject" placeholder="Subject*" required>
+		<textarea rows="8" placeholder="Message*" required></textarea>
+		<input type="submit" value="SEND">
+	</form>
+</div>
 </div>
 </body>
 </html>
