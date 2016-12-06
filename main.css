@@ -2,15 +2,12 @@ html, body {
 	height: 100%;
 	box-sizing: border-box;
 }
-
 body {
 	background-color: #fafafa;
 }
-
 * {
 	box-sizing: border-box
 }
-
 /*MAIN*/
 #container {
 	margin: 0 12.5%;
@@ -105,7 +102,7 @@ header {
 	border: 0;
 	background-color: #6ed7d7;
 	width: 10%;
-	background-image: url(/cmiff/images/search-icon.png);
+	background-image: url(https://staciepoin.github.io/cmiff/images/search-icon.png);
 	background-size: 15px;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -117,7 +114,7 @@ header {
 }
 
 #search input[type="submit"]:hover {
-	background-image: url(/cmiff/images/search-icon-black.png);
+	background-image: url(https://staciepoin.github.io/cmiff/images/search-icon-black.png);
 	cursor: pointer;
 }
 
@@ -178,4 +175,25 @@ header {
 #contact input[type="submit"]:hover {
 	cursor: pointer;
 	background-color: #aad7d7;
+}
+
+/*headings*/
+#container .section {
+  padding-top: 20px;
+  width: 80%;
+  padding-right: 20px
+}
+#container i {
+  font-size: 75px;
+  display: block;
+  color: #6adbd8;
+  text-align: center;
+  padding-bottom: 7.5px
+}
+
+#container p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  display: block;
+  line-height: 22.5px
 }
